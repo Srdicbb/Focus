@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: 220 50% 22%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 40 30% 92%;
+  --secondary-foreground: 220 50% 22%;
+  --accent: 38 92% 55%;
+  --accent-foreground: 220 50% 10%;
+  --success: 152 60% 42%;
+  --success-foreground: 0 0% 98%;
+  --destructive: 0 72% 55%;
+  --destructive-foreground: 0 0% 98%;
+  --muted: 220 10% 50%;
+  --muted-foreground: 220 10% 50%;
+  --background: 40 20% 97%;
+  --foreground: 220 50% 15%;
+  --card: 0 0% 100%;
+  --card-foreground: 220 50% 15%;
+  --border: 220 15% 88%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --primary: 220 50% 65%;
+  --primary-foreground: 220 50% 10%;
+  --secondary: 220 15% 20%;
+  --secondary-foreground: 220 10% 85%;
+  --accent: 38 92% 55%;
+  --accent-foreground: 220 50% 10%;
+  --success: 152 60% 45%;
+  --success-foreground: 0 0% 98%;
+  --destructive: 0 72% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --muted: 220 10% 45%;
+  --muted-foreground: 220 10% 60%;
+  --background: 220 20% 10%;
+  --foreground: 220 10% 90%;
+  --card: 220 15% 15%;
+  --card-foreground: 220 10% 90%;
+  --border: 220 15% 25%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', sans-serif;
+}
